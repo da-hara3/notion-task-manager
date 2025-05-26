@@ -1,0 +1,20 @@
+{
+  "name": "notion-task-manager",
+  "version": "1.0.0",
+  "description": "Notion-GitHub連携タスク管理ツール",
+  "main": "src/index.ts",
+  "scripts": {
+    "push": "clasp push",
+    "build": "tsc" 
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.13"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.66",
+    "typescript": "^5.2.2"
+  },
+  "author": "",
+  "license": "MIT"
+}
